@@ -1,0 +1,95 @@
+@keyframes slideFromTop
+    0% 
+        transform: translateY(-100%);  
+    100% 
+        transform: translateY(0);
+
+@keyframes slideFromBottom
+    0% 
+        transform: translateY(100%);  
+    100% 
+        transform: translateY(0);
+  
+.GDPR_compliance 
+    width: 100%
+    position: fixed
+    left: 0px
+    margin: 0px !important
+    padding: 20px 5px
+
+    &__wrap
+        max-width: 1140px
+        width: 100%
+        margin: 0 auto
+        display: flex
+        align-items: center
+
+    &__message
+        flex: 1
+        line-height: 1.2em
+        font-size: 15px
+        padding: 0 15px
+        margin: 0
+
+    &__button
+        text-decoration: none !important
+        padding: 10px 15px
+        line-height: 1em
+        border-radius: 5px
+        font-size: 14px
+        font-weight: 700
+        text-transform: uppercase
+
+    &--position_top
+        top: 0
+        border-bottom: 5px solid
+        animation: 1s ease-out 0s 1 slideFromTop;
+
+    &--position_bottom
+        bottom: 0
+        border-top: 5px solid
+        animation: 1s ease-out 0s 1 slideFromBottom;
+
+    &--theme_ocean 
+        background-color: #3185fc
+        border-color: #403f4c 
+        .GDPR_compliance
+            &__message 
+                color:  #0b4f6c
+            &__button 
+                color: #ffffff !important
+                background-color: #403f4c
+        .cookie_svg
+            fill: #0b4f6c
+
+    &--theme_light
+        background-color: #fbfbff
+        border-color: #01baef 
+        .GDPR_compliance
+            &__message 
+                color:  #0b4f6c
+            &__button 
+                color: #01baef !important
+                background-color: #ffffff
+                border: 1px solid #01baef 
+        .cookie_svg
+            fill: #0b4f6c
+
+    &--theme_forest
+        background-color: #5ef38c
+        border-color: #266447 
+        .GDPR_compliance
+            &__message 
+                color:  #2b9720
+            &__button 
+                color: #266447 !important
+                background-color: #ffffff
+        .cookie_svg
+            fill: #2b9720
+
+.cookie_svg 
+    width: 35px
+    margin-right: 15px
+
+
+

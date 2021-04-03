@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GDPR Compliance - [Rock Content]\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-03 14:53+0000\n"
+"PO-Revision-Date: 2021-04-03 15:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7\n"
+"X-Domain: gdpr-compliance"
+
+#: public/gdpr-compliance-generate.php:44
+msgid "Aceito"
+msgstr "I accept"
+
+#. Author of the plugin
+msgid "Andrés Felipe Patiño"
+msgstr ""
+
+#: includes/option-page.php:125
+msgid "Caixa de consentimento"
+msgstr "Consent box"
+
+#: includes/option-page.php:68
+msgid "Escolher a posição"
+msgstr "Choose the position"
+
+#. Name of the plugin
+msgid "GDPR Compliance - [Rock Content]"
+msgstr ""
+
+#: includes/option-page.php:42
+msgid "GDPR Compliance Rock Content"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"GDPR é uma regulamentação que solicita que sites da europa apresentem uma "
+"mensagem de consentimento informando que o website utiliza cookies."
+msgstr ""
+"GDPR is a regulation that requires sites in Europe to submit a consent "
+"message stating that the website uses cookies."
+
+#: includes/option-page.php:51
+msgid "Habilite ou desabilite"
+msgstr "Enable or disable"
+
+#. Author URI of the plugin
+msgid "https://github.com/andresfpatino"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/andresfpatino/Plugin-GDPR-Compliance-Rock-Content"
+msgstr ""
+
+#: includes/option-page.php:116
+msgid "Label do botão"
+msgstr "Button label"
+
+#: gdpr-compliance-rockcontent.php:65
+msgid "Plugin GDPR Compliance Rock Content ativado corretamente"
+msgstr "GDPR Compliance Rock Content plugin correctly activated"
+
+#: includes/option-page.php:85
+msgid "Tema de cores"
+msgstr "Color theme"
+
+#: public/gdpr-compliance-generate.php:37
+msgid ""
+"We use cookies to provide our services and for analytics and marketing. To "
+"find out more about our use of cookies, please see our Privacy Policy. By "
+"continuing to browse our website, you agree to our use of cookies."
+msgstr ""
+"We use cookies to provide our services and for analytics and marketing. To "
+"find out more about our use of cookies, please see our Privacy Policy. By "
+"continuing to browse our website, you agree to our use of cookies."
